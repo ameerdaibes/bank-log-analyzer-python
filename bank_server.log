@@ -1,0 +1,40 @@
+
+[2026-08-15 08:05:22] [ERROR] [SESSION_101] [root] [203.0.113.55] [AUTH] - Failed login attempt.
+[2026-08-15 08:05:30] [ERROR] [SESSION_102] [root] [203.0.113.55] [AUTH] - Failed login attempt.
+[2026-08-15 08:05:45] [ERROR] [SESSION_103] [root] [203.0.113.55] [AUTH] - Failed login attempt.
+[2026-08-15 09:00:00] [ERROR] [SESSION_104] [admin] [192.168.1.50] [AUTH] - Failed login attempt.
+[2026-08-15 10:00:00] [INFO] [SESSION_201] [admin] [192.168.1.50] [QUERY] - Executing SELECT statement on users table.
+[2026-08-15 10:01:05] [INFO] [SESSION_202] [admin] [192.168.1.50] [QUERY] - Executing SELECT statement on accounts.
+[2026-08-15 10:02:10] [WARNING] [SESSION_203] [root] [192.168.1.50] [QUERY] - Executing UPDATE balance for account 999.
+[2026-08-15 10:03:15] [INFO] [SESSION_204] [admin] [192.168.1.50] [QUERY] - Executing INSERT new transaction record.
+[2026-08-15 10:04:20] [ERROR] [SESSION_205] [root] [192.168.1.50] [QUERY] - Executing DELETE log entry.
+[2026-08-15 10:04:20] [ERROR] [SESSION_205] [root] [192.168.1.50] [QUERY] - Executing DELETE log entry.
+[2026-08-15 11:30:00] [WARNING] [SESSION_301] [root] [192.168.1.50] [QUERY] - Slow query: SELECT took 3.5 s.
+[2026-08-15 11:35:20] [WARNING] [SESSION_302] [admin] [192.168.1.50] [QUERY] - Slow query: UPDATE took 4.2 s.
+[2026-08-15 12:00:00] [INFO] [SESSION_401] [root] [192.168.1.50] [TRANSACTION] - Successfully processed deposit of 500.00 USD.
+[2026-08-15 12:05:00] [INFO] [SESSION_402] [root] [192.168.1.50] [TRANSACTION] - Successfully processed withdraw of 150.50 USD.
+[2026-08-15 12:10:00] [WARNING] [SESSION_403] [admin] [192.168.1.50] [TRANSACTION] - Transaction declined due to insufficient funds.
+[2026-08-15 12:15:00] [ERROR] [SESSION_404] [admin] [192.168.1.50] [TRANSACTION] - Transaction rollback executed successfully.
+[2026-08-15 13:00:00] [CRITICAL] [SESSION_501] [root] [192.168.1.50] [TRANSACTION] - Storage full.
+[2026-08-15 13:05:30] [CRITICAL] [SESSION_502] [admin] [192.168.1.50] [AUTH] - Breached.
+[2026-08-15 14:00:00] [INFO] [SESSION_601] [root] [192.168.1.50] [AUTH] - User root logged in successfully.
+[2026-08-15 14:10:00] [WARNING] [SESSION_602] [root] [192.168.1.50] [QUERY] - Slow query: SELECT took 2.1 s.
+[2026-08-15 14:00:00] [INFO] [SESSION_601] [root] [192.168.1.50] [AUTH] - User root logged in successfully.
+[2026-08-15 15:00:00] [INFO] [SESSION_601] [root] [192.168.1.50] [AUTH] - User root logged out.
+[2026-08-15 08:00:00] [INFO] [SESSION_701] [root] [192.168.1.50] [AUTH] - User root logged in successfully.
+[2026-08-15 09:30:00] [INFO] [SESSION_701] [root] [192.168.1.50] [AUTH] - User root logged out.
+[2026-08-15 10:30:00] [INFO] [SESSION_801] [admin] [192.168.1.50] [QUERY] - Executing SELECT query on accounts.
+[2026-08-15 16:15:00] [WARNING] [SESSION_802] [root] [192.168.1.50] [TRANSACTION] - Transaction delayed.
+[2026-08-15 16:45:00] [INFO] [SESSION_803] [admin] [192.168.1.50] [BACKUP] - Automated backup started.
+[2026-08-15 17:00:00] [INFO] [SESSION_804] [root] [192.168.1.50] [AUTH] - User logged in.
+[2026-08-15 08:05:22] [ERROR] [SESSION_101] [root] [203.0.113.55] [AUTH] - Failed login attempt.
+[2026-08-15 08:30:00] [INFO] [SESSION_102] [admin] [203.0.113.56] [AUTH] - Failed login attempt.
+[2026-08-15 09:00:00] [INFO] [SESSION_601] [root] [192.168.1.50] [AUTH] - User root logged in successfully.
+[2026-08-15 09:45:00] [INFO] [SESSION_601] [root] [192.168.1.50] [AUTH] - User root logged out.
+[2026-08-15 10:00:00] [WARNING] [SESSION_201] [admin] [192.168.1.50] [QUERY] - Slow query: SELECT took 3.5 s.
+[2026-08-15 10:15:00] [INFO] [SESSION_202] [admin] [192.168.1.50] [QUERY] - Executing SELECT statement on users table.
+[2026-08-15 11:00:00] [CRITICAL] [SESSION_501] [root] [192.168.1.50] [TRANSACTION] - Storage full.
+[2026-08-15 12:00:00] [INFO] [SESSION_401] [root] [192.168.1.50] [TRANSACTION] - Successfully processed deposit of 500.00 USD.
+This is a corrupted or malformed log line to test the warning parser.
+[2026-08-15 14:00:00] [INFO] [SESSION_701] [root] [192.168.1.50] [AUTH] - User root logged in successfully.
+[2026-08-15 15:30:00] [INFO] [SESSION_701] [root] [192.168.1.50] [AUTH] - User root logged out.
